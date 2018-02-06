@@ -7,6 +7,7 @@ namespace AsIKnow.LocalizationHelpers
 {
     public class LocalizationOptions
     {
+        public string LocalizationsPath { get; set; } = "Localizations";
         public string DefaultCulture { get; set; }
         public string[] SupportedCultures { get; set; }
     }
